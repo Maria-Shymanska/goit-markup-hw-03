@@ -46,6 +46,11 @@ ul {
 }
 
 /*---- header------- */
+.header {
+  background-color: #ffffff;
+  height: 80px;
+  border-bottom: 1px solid #ececec;
+}
 
 .container {
   width: 1200px;
@@ -53,10 +58,13 @@ ul {
   margin: 0 auto;
 }
 
-.header-site {
-  background-color: #ffffff;
-  border: 1px solid #ececec;
-  display: block;
+.header-container {
+  display: flex;
+}
+
+.header-connect {
+  margin-right: auto;
+  display: flex;
 }
 
 .header-logo {
@@ -65,6 +73,7 @@ ul {
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
+  margin-right: 93px;
 }
 
 .header-logo:hover,
@@ -90,13 +99,6 @@ ul {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--main-text-color);
-  padding-top: 32px;
-  padding-bottom: 32px;
-}
-
-.header-item {
-  display: block;
-  margin-left: auto;
 }
 
 .header-link-mail {
@@ -118,6 +120,7 @@ ul {
 }
 
 /*------ main------- */
+
 .container {
   width: 1200px;
   padding: 0 15px;
@@ -127,7 +130,7 @@ ul {
 .hero {
   background-color: #2f303a;
   padding-top: 200px;
-  padding-bottom: 280px;
+  padding-bottom: 200px;
 }
 
 .hero-first-title {
@@ -139,6 +142,7 @@ ul {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   max-width: 696px;
+  margin: 0 auto 30px auto;
 }
 
 .hero-btn {
@@ -161,6 +165,12 @@ ul {
 
 /* --benefits-- */
 
+.container {
+  width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -175,11 +185,22 @@ ul {
   overflow: hidden;
 }
 
+.benefits {
+  background-color: #ffffff;
+  padding-bottom: 0;
+  padding-top: 94px;
+}
+
 .hero-item:not(:last-child) {
   margin-right: 30px;
 }
+
 .benefits-list {
   display: flex;
+}
+
+.hero-item {
+  width: 270px;
 }
 
 .benefits-title {
@@ -200,6 +221,19 @@ ul {
 
 /* --galery-- */
 
+.container {
+  width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+.gallery-list {
+  display: flex;
+}
+.img {
+  display: block;
+  max-width: 100%;
+}
+
 .gallery-title {
   font-weight: 700;
   font-size: 36px;
@@ -209,6 +243,12 @@ ul {
 }
 
 /* --team-- */
+
+.container {
+  width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
 
 .our-team {
   background-color: #f5f4fa;
@@ -232,9 +272,17 @@ ul {
   line-height: 1.18;
   letter-spacing: 0.03em;
   color: var(--secondary-text-color);
+  margin-bottom: 10px;
 }
 
 /* -----footer------- */
+
+.container {
+  width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
 .footer {
   background-color: var(--background-footer-color);
 }
