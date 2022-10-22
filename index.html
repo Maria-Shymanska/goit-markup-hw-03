@@ -16,7 +16,8 @@
 
 <body>
   <!-- header -->
-  <header class="header-site">
+
+  <header class="header">
     <div class="container header-container ">
       <nav class="header-nav">
         <a class="link header-logo" href="./index.html"><span class="first-part">Web</span><span
@@ -50,7 +51,7 @@
 
   <main>
     <section class="hero">
-      <div class="container">
+      <div class="hero-container">
         <h1 class="hero-first-title">Ефективні рішення для вашого бізнесу</h1>
         <button type="button" class="hero-btn">Замовити послугу</button>
       </div>
@@ -92,35 +93,45 @@
       <div class="container">
         <h2 class="gallery-title">Чим ми займаємося</h2>
         <ul class="gallery-list list">
-          <li><img src="./images/photo1.jpg" alt="working process" width="370" height="294"></li>
-          <li><img src="./images/photo2.jpg" alt="working process" width="370" height="294"></li>
-          <li><img src="./images/photo3.jpg" alt="working process" width="370" height="294"></li>
+          <li class="gallery-item"><img src="./images/photo1.jpg" alt="working process" width="370" height="294"></li>
+          <li class="gallery-item"><img src="./images/photo2.jpg" alt="working process" width="370" height="294"></li>
+          <li class="gallery-item"><img src="./images/photo3.jpg" alt="working process" width="370" height="294"></li>
+        </ul>
       </div>
-      </ul>
     </section>
+
+    <!-- team -->
 
     <section class="our-team">
       <h2 class="about-our-team">Наша команда</h2>
       <ul class="list about-list">
         <li class="about-item list">
           <img src="./images/img1.jpg" alt="Frontend Developer" width="270" height="260" />
-          <h3 class="about-title">Ігор Дем'яненко</h3>
-          <p lang="en" class="about-pre-title">Product Designer</p>
+          <div class="img-text">
+            <h3 class="about-title">Ігор Дем'яненко</h3>
+            <p lang="en" class="about-pre-title">Product Designer</p>
+          </div>
         </li>
         <li class="about-item list">
           <img src="./images/img2.jpg" alt="Frontend Developer" width="270" height="260" />
-          <h3 class="about-title">Ольга Рєпіна</h3>
-          <p lang="en" class="about-pre-title">Frontend Developer</p>
+          <div class="img-text">
+            <h3 class="about-title">Ольга Рєпіна</h3>
+            <p lang="en" class="about-pre-title">Frontend Developer</p>
+          </div>
         </li>
         <li class="about-item list">
           <img src="./images/img3.jpg" alt="Frontend Developer" width="270" height="260" />
-          <h3 class="about-title">Микола Тарасов</h3>
-          <p lang="en" class="about-pre-title">Frontend Developer</p>
+          <div class="img-text">
+            <h3 class="about-title">Микола Тарасов</h3>
+            <p lang="en" class="about-pre-title">Frontend Developer</p>
+          </div>
         </li>
         <li class="about-item list">
           <img src="./images/img4.jpg" alt="Frontend Developer" width="270" height="260" />
-          <h3 class="about-title">Михайло Єрмаков</h3>
-          <p lang="en" class="about-pre-title">Frontend Developer</p>
+          <div class="img-text">
+            <h3 class="about-title">Михайло Єрмаков</h3>
+            <p lang="en" class="about-pre-title">Frontend Developer</p>
+          </div>
         </li>
       </ul>
     </section>
@@ -128,21 +139,22 @@
 
   <!-- footer -->
   <footer class="footer-section">
-    <address class="footer-address">
+    <div class="container">
       <a class="footer-logo link" href="./index.html"><span class="first-part">Web</span><span
           class="second-part">Studio</span></a>
-      <ul class="list footer-list">
-        <li class="footer-item">
-          <a class="footer-link-map link" href="https://goo.gl/maps/BN2P9NeAtjH4bp3VA" target="_blank"
-            rel="noopener noreferrer nofollow">
-            м. Київ, пр-т Лесі Українки, 26</a>
-        </li>
-        <li class="footer-link-mail link"><a class="footer-link link"
-            href="mailto:info@example.com">info@example.com</a>
-        </li>
-        <li class="footer-tel link"><a class="footer-link link" href="tel:+380991111111">+38 099 111 11 11</a></li>
-      </ul>
-    </address>
+      <address class="footer-address">
+        <ul class="list footer-list">
+          <li class="footer-item">
+            <a class="footer-link-map link" href="https://goo.gl/maps/BN2P9NeAtjH4bp3VA" target="_blank"
+              rel="noopener noreferrer nofollow">
+              м. Київ, пр-т Лесі Українки, 26</a>
+          </li>
+          <li class="footer-link-mail link"><a class="footer-link link"
+              href="mailto:info@example.com">info@example.com</a>
+          </li>
+          <li class="footer-tel link"><a class="footer-link link" href="tel:+380991111111">+38 099 111 11 11</a></li>
+        </ul>
+      </address>
   </footer>
 </body>
 
