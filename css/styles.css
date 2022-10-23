@@ -308,6 +308,8 @@ ul {
   font-size: 36px;
   line-height: 1.16;
   letter-spacing: 0.03em;
+  padding-bottom: 30px;
+  text-align: center;
 }
 .about-title {
   font-weight: 500;
@@ -335,6 +337,8 @@ ul {
 
 .footer-section {
   background-color: var(--background-footer-color);
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .footer-address {
@@ -375,7 +379,6 @@ ul {
   background-color: #ffffff;
   height: 80px;
   border-bottom: 1px solid #ececec;
-  display: flex;
 }
 
 .header-container {
