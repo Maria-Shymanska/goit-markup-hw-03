@@ -56,7 +56,8 @@ ul {
 
 .header-container {
   display: flex;
-  text-align: center;
+  align-items: center;
+  justify-content: space-between;
 }
 .container {
   width: 1230px;
@@ -66,12 +67,11 @@ ul {
 
 .header-list {
   display: flex;
-  justify-content: center;
+  text-align: center;
   gap: 30px;
 }
 
 .header-connect {
-  margin-right: auto;
   display: flex;
   gap: 30px;
 }
