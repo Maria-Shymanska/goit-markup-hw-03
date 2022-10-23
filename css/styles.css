@@ -60,6 +60,8 @@ ul {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 .container {
   width: 1230px;
@@ -210,7 +212,7 @@ ul {
   display: flex;
 }
 
-.benefits {
+.section {
   background-color: #ffffff;
   padding-bottom: 94px;
   padding-top: 94px;
@@ -248,7 +250,8 @@ ul {
   margin-right: 30px;
 }
 
-.gallery {
+.section {
+  padding-top: 94px;
   padding-bottom: 94px;
 }
 
