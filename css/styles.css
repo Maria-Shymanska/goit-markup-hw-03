@@ -46,6 +46,21 @@ ul {
   padding-left: 0;
 }
 
+.container {
+  width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
 /*---- header------- */
 .header-page {
   background-color: #ffffff;
@@ -60,13 +75,6 @@ ul {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
-.container {
-  width: 1230px;
-  padding: 0 15px;
-  margin: 0 auto;
 }
 
 .header-list {
@@ -151,8 +159,6 @@ ul {
 
 .hero {
   background-color: #2f303a;
-  padding-top: 94px;
-  padding-bottom: 94px;
 }
 
 .hero-first-title {
@@ -187,12 +193,6 @@ ul {
 
 /* --benefits-- */
 
-.container {
-  width: 1200px;
-  padding: 0 15px;
-  margin: 0 auto;
-}
-
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -214,8 +214,6 @@ ul {
 
 .section {
   background-color: #ffffff;
-  padding-bottom: 94px;
-  padding-top: 94px;
 }
 
 .hero-item:not(:last-child) {
@@ -250,23 +248,8 @@ ul {
   margin-right: 30px;
 }
 
-.section {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
-
-.container {
-  width: 1230px;
-  padding: 0 15px;
-  margin: 0 auto;
-}
-
 .gallery-list {
   display: flex;
-}
-.img {
-  display: block;
-  max-width: 100%;
 }
 
 .gallery-title {
@@ -280,11 +263,6 @@ ul {
 
 /* --team-- */
 
-.container {
-  width: 1230px;
-  padding: 0 15px;
-  margin: 0 auto;
-}
 
 .about-list {
   display: flex;
@@ -334,11 +312,6 @@ ul {
 
 /* -----footer------- */
 
-.container {
-  width: 1230px;
-  padding: 0 15px;
-  margin: 0 auto;
-}
 
 .footer-section {
   background-color: var(--background-footer-color);
@@ -389,11 +362,6 @@ ul {
 .header-container {
   display: flex;
   text-align: center;
-}
-.container {
-  width: 1230px;
-  padding: 0 15px;
-  margin: 0 auto;
 }
 
 .header-list {
@@ -460,16 +428,6 @@ link {
 
 /* --main-- */
 
-.section {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
-.container {
-  width: 1230px;
-  padding: 0 15px;
-  margin: 0 auto;
-}
-
 .examples-list {
   display: flex;
   margin-bottom: 50px;
@@ -533,11 +491,6 @@ link {
 }
 
 /* --footer--*/
-.container {
-  width: 1230px;
-  padding: 0 15px;
-  margin: 0 auto;
-}
 
 .footer-section {
   background-color: var(--background-footer-color);
