@@ -65,7 +65,7 @@ img {
   height: auto;
 }
 
-button {
+.hero-btn {
   display: block;
   cursor: pointer;
   border: none;
@@ -73,6 +73,11 @@ button {
 }
 
 /*---- header------- */
+
+.header-container {
+  display: flex;
+  align-items: center;
+}
 
 .header-page {
   height: 80px;
@@ -158,8 +163,11 @@ button {
 
 /*------ main------- */
 
-. {
+.hero-section {
   background-color: #2f303a;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  text-align: center;
 }
 
 .hero-first-title {
@@ -170,8 +178,9 @@ button {
   color: var(--backround-color);
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  max-width: 696px;
-  margin-bottom: 50px;
+  margin: 0 auto;
+  width: 696px;
+  margin-bottom: 30px;
 }
 
 .hero-btn {
@@ -180,10 +189,9 @@ button {
   font-size: 16px;
   line-height: 1.8;
   background-color: #2196f3;
-  text-align: center;
   letter-spacing: 0.06em;
   color: #ffffff;
-  margin: 10px 32px 10px 32px;
+  padding: 10px 32px 10px 32px;
 }
 
 .hero-btn:hover,
@@ -226,20 +234,14 @@ button {
 
 .benefits-title {
   font-weight: 700;
-  font-size: 14px;
   line-height: 1.14;
-  letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--main-text-color);
-  margin-bottom: 10px;
 }
+
 .benefits-pre-title {
-  font-weight: 400;
-  font-size: 14px;
   line-height: 1.71;
-  letter-spacing: 0.03em;
   color: var(--secondary-text-color);
-  margin-bottom: 10px;
 }
 
 /* --galery-- */
@@ -250,6 +252,10 @@ button {
 
 .gallery-list {
   display: flex;
+}
+
+.work {
+  padding-top: 0;
 }
 
 .gallery-title {
@@ -276,7 +282,6 @@ button {
 }
 .our-team {
   background-color: #f5f4fa;
-  padding-bottom: 94px;
 }
 
 .about-item {
@@ -290,7 +295,7 @@ button {
   font-size: 36px;
   line-height: 1.16;
   letter-spacing: 0.03em;
-  padding-bottom: 30px;
+  margin-bottom: 50px;
   text-align: center;
 }
 .about-title {
@@ -299,26 +304,27 @@ button {
   line-height: 1.18;
   letter-spacing: 0.03em;
   color: var(--main-text-color);
-  margin-bottom: 10px;
 }
 .about-pre-title {
   font-size: 16;
   line-height: 1.18;
   letter-spacing: 0.03em;
   color: var(--secondary-text-color);
-  margin-bottom: 10px;
 }
 
 /* -----footer------- */
 
 .footer-section {
   background-color: var(--background-footer-color);
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .footer-address {
   margin-top: 20px;
+}
+.footer-item:last-child {
+  margin-bottom: 9px;
 }
 
 .footer-logo {
@@ -351,29 +357,34 @@ button {
 
 /* --portfolio-- */
 
-.header {
-  background-color: #ffffff;
+.header-page {
   height: 80px;
   border-bottom: 1px solid #ececec;
-}
-
-.header-container {
   display: flex;
-  text-align: center;
 }
 
-.header-connect {
-  margin-right: auto;
+.header-nav {
   display: flex;
-  gap: 30px;
+  align-items: center;
 }
 
-.list {
-  list-style: none;
+.header-nav-list {
+  display: flex;
+  margin-left: auto;
+  gap: 50px;
+  margin-left: 93px;
 }
-link {
-  text-decoration: none;
+
+.header-list {
+  display: flex;
+  margin-left: auto;
+  align-items: center;
 }
+
+.header-item {
+  margin-right: 50px;
+}
+
 .current a {
   color: #2196f3;
 }
@@ -396,16 +407,19 @@ link {
 .header-nav-link {
   font-weight: 500;
   font-size: 14px;
-  line-height: 1.14;
+  line-height: 1.71;
   letter-spacing: 0.02em;
   color: var(--main-text-color);
+  padding-top: 32px;
+  padding-bottom: 32px;
+  display: block;
 }
 
 .header-link-mail {
   font-family: 'Roboto';
   font-weight: 500;
   font-size: 14px;
-  line-height: 1.14;
+  line-height: 1.71;
   letter-spacing: 0.02em;
   color: var(--secondary-text-color);
 }
@@ -413,7 +427,7 @@ link {
 .header-tel {
   font-weight: 500;
   font-size: 14px;
-  line-height: 1.14;
+  line-height: 1.71;
   letter-spacing: 0.02em;
   color: var(--secondary-text-color);
 }
@@ -448,7 +462,6 @@ link {
   border-radius: 4px;
   border: none;
   padding: 6px 22px;
-  margin: 20px;
 }
 
 .btn-main:hover .btn-main:focus {
@@ -459,6 +472,7 @@ link {
 .filters-list {
   display: flex;
   flex-wrap: wrap;
+  gap: 30px;
 }
 .examples-list > .hero-item {
   background-color: #ffffff;
@@ -484,14 +498,6 @@ link {
 
 /* --footer--*/
 
-.footer-section {
-  background-color: var(--background-footer-color);
-}
-
-.footer-address {
-  margin-top: 20px;
-}
-
 footer {
   background-color: var(--background-footer-color);
 }
@@ -516,7 +522,7 @@ footer {
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  line-height: 1.19;
+  line-height: 1.71;
   letter-spacing: 0.03em;
   color: #ffffff;
 }
