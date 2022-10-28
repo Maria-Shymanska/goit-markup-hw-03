@@ -222,7 +222,7 @@ img {
   line-height: 1.14;
   text-transform: uppercase;
   color: var(--main-text-color);
-  margin: 10px;
+  margin-bottom: 10px;
 }
 
 .benefits-pre-title {
@@ -288,7 +288,7 @@ img {
   font-size: 16px;
   line-height: 1.18;
   color: var(--main-text-color);
-  margin: 10px;
+  margin-bottom: 10px;
   text-align: center;
 }
 .about-pre-title {
@@ -339,12 +339,6 @@ img {
 
 /* --portfolio-- */
 
-.header-list {
-  display: flex;
-  margin-left: auto;
-  align-items: center;
-}
-
 .current a {
   color: #2196f3;
 }
@@ -383,16 +377,13 @@ img {
 
 /* --main-- */
 
-.examples-list {
+.filtres-list {
   display: flex;
   margin-bottom: 50px;
   justify-content: center;
   gap: 8px;
 }
 
-.hero-item {
-  display: block;
-}
 .btn-main {
   font-family: inherit;
   font-weight: 500;
@@ -413,17 +404,10 @@ img {
   color: #ffffff;
 }
 
-.filters-list {
+.examples-list {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
-}
-
-.filters-list > .hero-item {
-  background-color: #ffffff;
-  flex-basis: calc(100% - 90px / 3);
-  margin-left: 30px;
-  margin-top: 30px;
 }
 
 .img-portfolio-text {
@@ -439,7 +423,7 @@ img {
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--logo-text-color);
-  margin: 4px;
+  margin-bottom: 4px;
 }
 
 .hero-pre-title {
